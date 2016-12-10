@@ -1,0 +1,26 @@
+/*
+Theme Name:   MikkoDC
+Theme URI:    http://www.mikkodc.com
+Description:  Theme for my personal website, MikkoDC
+Author:       Mikko de Castro
+Author URI:   http://www.mikkodc.com
+Template:     astrid
+Version:      1.0.0
+*/
+
+.custom-logo-link img {
+    width: auto;
+    max-height: 80px;
+    transition: all 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+.site-header.header-scrolled {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.site-header.header-scrolled .custom-logo-link img {
+    max-height: 70px;
+}
